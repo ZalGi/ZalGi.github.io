@@ -1,0 +1,190 @@
+/*---------------------------------------------------------------*/
+/* Basic setup*/
+/*---------------------------------------------------------------*/
+html {
+    background-color: #36bdf4;
+    color:  #ffffff;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*---------------------------------------------------------------*/
+/* NavBar*/
+/*---------------------------------------------------------------*/
+.navbar {
+    background-color: #36bdf4;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 20px;
+    
+}
+
+.main-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.main-nav link a:link,
+.main-nav link a:active {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150%;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 4px solid;
+}
+/*---------------------------------------------------------------*/
+/* DUK */
+/*---------------------------------------------------------------*/
+.duk {
+    background-color: #d8d01a;
+    color:  #ffffff;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.abc {
+    color:  #ffffff;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    padding-top: 10px;
+}
+.ikoneles {
+    height: 50px;
+    width: auto;
+}
+/*---------------------------------------------------------------*/
+/* Registration form*/
+/*---------------------------------------------------------------*/
+.reg_header {padding-top: 20px;}
+.reg-form {
+    background-color: red;
+    color:  #ffffff;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*---------------------------------------------------------------*/
+/* Terms & Conditions */
+/*---------------------------------------------------------------*/
+.taisykles {
+    background-color: #36bdf4;
+    color:  #ffffff;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.taisykles-text {
+    text-align: justify;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li:before {
+  content: counters(item, ".") ") ";
+  display: table-cell;
+  padding-right: 0.6em;
+}
+
+li ol > li {
+  margin: 0;
+}
+
+li ol > li:before {
+  content: counters(item, ".") ") ";
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+/*---------------------------------------------------------------*/
+/* Social icons footer*/
+/*---------------------------------------------------------------*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.footer {
+    text-align: center;
+    background-color: #36bdf4;
+    padding-bottom: 20px;
+}
